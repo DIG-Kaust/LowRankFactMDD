@@ -1,7 +1,6 @@
 <!--[LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)-->
 
-Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+Reproducible material for Solving multi-dimensional deconvolution via a nuclear-norm regularized least-squares approach by Fuqiang Chen, Matteo Ravasi, and David Keyes submitted to 84th EAGE Annual Conference & Exhibition.
 
 
 ## Project structure
