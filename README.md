@@ -21,14 +21,6 @@ The following notebooks are provided:
   - :orange_book: ``Deblending_Seam1OBC_freqthresh.ipynb``: notebook performing deblending with different solvers and frequency-dependent thresholding;
   - :orange_book: ``Deblending_Seam1OBC_visualization.ipynb``: notebook used to create the final figures in the paper.
 
-## * **:open_file_folder: seam1**:
-
-##  - :orange_book: ``3DBlending_FKIHT.ipynb``: notebook performing deblending with IHT solver;
-##  - :orange_book: ``3DBlending_FKHQS.ipynb``: notebook performing deblending with HQS solver;
-##  - :orange_book: ``3DBlending_FKADMM.ipynb``: notebook performing deblending with ADMM solver;
-##  - :orange_book: ``3DBlending_Visualization.ipynb``: notebook used to create the final figures in the paper.
-
-
 ## Getting started :space_invader: :robot:
 To ensure reproducibility of the results, we suggest using the `environment.yml` file when creating an environment.
 
