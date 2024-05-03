@@ -24,8 +24,6 @@ classifiers = [
     ]   
 dependencies = [ 
         "numpy >= 1.15.0",
-        "pylops >= 2.0.0",
-        "pyproximal >= 0.7.0",
     ]   
 dynamic = ["version"]
 
