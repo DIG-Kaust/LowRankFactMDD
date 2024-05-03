@@ -35,7 +35,7 @@ pip install -e .
 
 Remember to always activate the environment by typing:
 ```
-conda activate pocsdeblend
+conda activate mdd_lrr
 ```
 
 <!---**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
