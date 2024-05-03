@@ -6,8 +6,6 @@ Reproducible material for **A physics-aware, low-rank regularization for multidi
 This repository is organized as follows:
 
 * :open_file_folder: **mdd_lrr**: python library containing routines to perform mdd with factorization-based low-rank regularization;
-<!---* :open_file_folder: **data**: folder where input data must be placed;
-* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);--->
 
 **NOTE**: due to their large size, the datasets used in this repository cannot be shared directly in this repository. 
 Refer to the ``README`` file in the ``data`` folder for more details.
