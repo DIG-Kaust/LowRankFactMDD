@@ -1,11 +1,11 @@
-![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
+## ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
-Reproducible material for **Seismic deblending with a hard data constraint - Ravasi M.** submitted to IMAGE 2024.
+Reproducible material for **A physics-aware, low-rank regularization for multidimensional deconvolution - Fuqiang Chen, Matteo Ravasi, and David Keyes** submitted to Geophysics.
 
 ## Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **pocsdeblend**: python library containing routines to perform deblending with various proximal solvers;
+* :open_file_folder: **mdd_lrr**: python library containing routines to perform mdd with factorization-based low-rank regularization;
 * :open_file_folder: **data**: folder where input data must be placed;
 * :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
 
@@ -21,12 +21,12 @@ The following notebooks are provided:
   - :orange_book: ``Deblending_Seam1OBC_freqthresh.ipynb``: notebook performing deblending with different solvers and frequency-dependent thresholding;
   - :orange_book: ``Deblending_Seam1OBC_visualization.ipynb``: notebook used to create the final figures in the paper.
 
-* **:open_file_folder: seam1**:
+## * **:open_file_folder: seam1**:
 
-  - :orange_book: ``3DBlending_FKIHT.ipynb``: notebook performing deblending with IHT solver;
-  - :orange_book: ``3DBlending_FKHQS.ipynb``: notebook performing deblending with HQS solver;
-  - :orange_book: ``3DBlending_FKADMM.ipynb``: notebook performing deblending with ADMM solver;
-  - :orange_book: ``3DBlending_Visualization.ipynb``: notebook used to create the final figures in the paper.
+##  - :orange_book: ``3DBlending_FKIHT.ipynb``: notebook performing deblending with IHT solver;
+##  - :orange_book: ``3DBlending_FKHQS.ipynb``: notebook performing deblending with HQS solver;
+##  - :orange_book: ``3DBlending_FKADMM.ipynb``: notebook performing deblending with ADMM solver;
+##  - :orange_book: ``3DBlending_Visualization.ipynb``: notebook used to create the final figures in the paper.
 
 
 ## Getting started :space_invader: :robot:
