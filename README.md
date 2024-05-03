@@ -13,9 +13,9 @@ Refer to the ``README`` file in the ``data`` folder for more details.
 ## Notebooks
 The following notebooks are provided:
 
-* **:open_file_folder: seam1**:
+* **:open_file_folder: toy example**:
 
-  - :orange_book: ``mdd_lrr_toy.ipynb``: notebook performing mdd with random complex matrices for down- and up-going wavefield;
+  - :orange_book: ``mdd_lrr_toy.ipynb``: notebook performing mdd with random complex matrices for down- and up-going wavefield to demonstrate the convergence of the proposed factorization-based low-rank regularization;
     
 ## Getting started :space_invader: :robot:
 To ensure reproducibility of the results, we suggest using the `environment.yml` file when creating an environment.
