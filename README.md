@@ -15,7 +15,7 @@ The following notebooks are provided:
 
 * **:open_file_folder: seam1**:
 
-  - :orange_book: ``Deblending_Seam1OBC.ipynb``: notebook performing deblending with different solvers and frequency-independent thresholding;
+  - :orange_book: ``mdd_lrr_toy.ipynb``: notebook performing mdd with random complex matrices for down- and up-going wavefield;
     
 ## Getting started :space_invader: :robot:
 To ensure reproducibility of the results, we suggest using the `environment.yml` file when creating an environment.
