@@ -1,4 +1,4 @@
-## ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
+<!---## ![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)--->
 
 Reproducible material for **A physics-aware, low-rank regularization for multidimensional deconvolution - Fuqiang Chen, Matteo Ravasi, and David Keyes** submitted to Geophysics.
 
