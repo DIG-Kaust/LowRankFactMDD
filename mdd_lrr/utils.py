@@ -25,6 +25,7 @@ def ipalm(A, b, prox, tau, alpha, tol=1e-5, scale=[0.5, 0.5], lam=[0.1,0.1], ite
 
     x1 = list(x0)
     x2 = list(x0)
+    tau = list(tau)
 
     if show:
             print("%5s%20s%20s%20s\n"%("niter", "data_residual", "norm_grad", "rel_grad_diff"))
@@ -46,7 +47,7 @@ def ipalm(A, b, prox, tau, alpha, tol=1e-5, scale=[0.5, 0.5], lam=[0.1,0.1], ite
 
             res = A.forward(x2) - b
             f0 = 0.5*np.linalg.norm(res)**2
-            grad = A.adjoint(res, ziblck, iblck)
+            grad = A.adjoint(res, x2, iblck)
             gnorm += np.linalg.norm(grad)
 
             while(True):
