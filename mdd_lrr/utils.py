@@ -1,6 +1,6 @@
 import numpy as np
 
-def ipalm(A, b, prox, tau, alpha, tol=1e-5, scale=[0.5, 0.5], lam=[0.1,0.1], iter_lim=None, show=False, x0=None, beta=None):
+def ipalm(A, b, prox, tau, alpha, tol=1e-5, scale=[0.5, 0.5], lam=None, iter_lim=None, show=False, x0=None, beta=None):
 
 
     x1 = list(x0)
