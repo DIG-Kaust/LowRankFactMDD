@@ -78,7 +78,7 @@ def ipalm(A, b, prox, tau, alpha, tol=1e-5, scale=[0.5, 0.5], lam=None, iter_lim
 
 def l2_prox(v, t):
 
-    return v/(2*t+1)
+    return v/(t+1)
 
 
 def backtrack(diff_misfit, diff_model, gv, tau):
